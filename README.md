@@ -1,7 +1,7 @@
 # Description of SoldierPage_Frontend Project
 Led development of Battlefield 4 Soldier page, integrating Figma design with Node.js and React.js. Crafted a seamless user experience and a clone for familiarity. Merged cutting-edge tech and design for a comprehensive web app. Delivered engaging and responsive profiles for Battlefield 4 enthusiasts. Check out the project here.
 
-# Project Description
+## Project Description
 ![image](https://github.com/shiv-1203/SoldierPage_Frontend/assets/105982373/250cc694-68a0-4950-bde7-5de0efd2bd1f)
 
 This repository comprises a web application with a React.js frontend and a Node.js backend. The final output window is visually represented in the provided image. The green-highlighted area in the images is dynamically served from the backend, accessible at [SoldierPage_Backend](https://soldierpage-backend.onrender.com/). The following features are implemented:
@@ -14,7 +14,7 @@ This repository comprises a web application with a React.js frontend and a Node.
 
 The backend interacts with the frontend through one or more API calls, facilitating the fetching of data from the server to the frontend components. This project is designed to offer a comprehensive and responsive user interface for exploring BattleField 4 soldier profiles.
 
-# Prerequisites
+## Prerequisites
 Before you begin, ensure you have the following prerequisites:
 
 - **npm:** The Node.js package manager.
