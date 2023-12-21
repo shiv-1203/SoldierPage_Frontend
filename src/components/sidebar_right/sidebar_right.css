@@ -1,0 +1,81 @@
+.vectorLogo{
+    color: white;
+    text-align: left;
+}
+.squadAddLogo{
+    font-size: 10px;
+    color: black;
+    padding:10px 8px 10px 8px;
+    background-color: grey;
+}
+.online{
+    margin:0px;
+    padding: 0px;
+    position: absolute;
+    left: 33px;
+    top:15px;
+}
+.offline{
+    margin:0px;
+    padding: 0px;
+    position: absolute;
+    left: 35px;
+    top:16px;
+}
+.menuitem1_1{
+    text-align: left;
+    margin: 0px;
+    height:30px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.squadJoin{
+    position: absolute;
+    top:18px;
+    left: 60px;
+    /* padding-bottom: 5px; */
+}
+.squadJoinName{
+    position: absolute;
+    top:16px;
+    left: 25px;
+    /* padding-bottom: 5px; */
+}
+.menuitem1_2{
+    text-align: left;
+    font-size: 11px;
+}
+.squadClub{
+    padding-top: 3px;
+    padding-left: 2px;
+}
+.squadClub:hover{
+    background-color: white;
+    color: black;
+}
+.squadClub:hover .squadAddLogo{
+    background-color: black;
+    color: white;
+
+}
+.sidebar_right:hover{
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+}
+.squadClub1{
+    padding-top: 3px;
+    padding-left: 2px;
+    opacity: 0.7;
+}
+.squadClub1:hover{
+    background-color: white;
+    opacity: 1;
+    color: black;
+}
+.OnlineJoin{
+    position: absolute;
+    top:10px;
+    left: 60px;
+    /* padding-bottom: 5px; */
+}

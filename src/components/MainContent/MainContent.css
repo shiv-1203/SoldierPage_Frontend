@@ -1,0 +1,285 @@
+body{
+  background: url("/src/asserts/images/menu__background.png") center/cover fixed no-repeat;
+  cursor: none;
+  
+}
+.emblem{
+  position:absolute;
+  top: 0px;
+  right: 300px;
+  height:17vw;
+}
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.soldierPic{
+    margin-top: 30px;
+    margin-left: 90px;
+    height: 70vh;
+}
+.logo{
+    /* margin-top: 10px; */
+    margin-right: 10px;
+    height: 60px;
+    padding: 0.1px;
+    border-radius: 50%; 
+    /* background: radial-gradient(
+      transparent 60%,
+      #ff9d00 65% 100%
+    ); */
+    border: 1px solid transparent;
+    background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(50, 40, 40), rgb(50, 40, 40) 60%), 
+                      linear-gradient(30deg, rgb(111, 111, 111) 36%, #f69a05e9 30%),
+                      linear-gradient(120deg, #f69a05e9 36%, #f69a05e9 30%),
+                      linear-gradient(300deg, rgb(111, 111, 111) 46%, rgb(111, 111, 111) 30%),
+                      linear-gradient(240deg, #f69a05e9 36%, rgb(111, 111, 111) 30%);
+    background-position: center center, left top, right top, left bottom, right bottom;
+    background-origin: content-box, border-box, border-box, border-box, border-box;
+    background-clip: content-box, border-box, border-box, border-box, border-box;
+    z-index: 1; 
+  }
+  .cookieName{
+    display: flex; 
+    flex-wrap:wrap;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .soldierName{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .soldierRank{
+    color: white;
+    font-size: 11px;
+    padding: 1px 15px 1px 15px;
+    border: 1px solid grey;
+  }
+  .soldierText{
+    color: white;
+    font-size: 11px;
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    font-weight:500;
+    color: white;
+    text-align: left;
+    font-size: 10px;
+  }
+  .dataDesc{
+    display: flex; 
+    flex-wrap: wrap; 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.348);
+    padding: 7px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 300px;
+  }
+  .dataDesc:hover{
+    background-color: white;
+    color: black;
+  }
+  .column2Content{
+    margin-top: 160px;
+  }
+  .dominance{
+    color: white;
+    font-weight:400;
+    font-size: 10px;
+    margin-left: 30px;
+    max-width: fit-content;
+  }
+  .dominanceContent{
+    margin-left:20px;
+    margin-right: 40px;
+    max-width: fit-content;
+  }
+  .vehicleText{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 40px;
+    justify-content: flex-start;
+    max-width: 450px;
+  }
+  .vehicleDesc{
+    background-color: rgb(0,0,0,0.5);
+    margin-right:5px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 11px;
+    width:100%;
+    height: 140px;
+    max-width: 200px;
+  }
+  .vehicleDesc:hover{
+    background-color: white;
+    color: black;
+  }
+  .vehicleDesc:hover .vehicleImg:hover{
+    filter: brightness(0%);
+  }
+  .img1{
+    position:absolute;
+    left: 30px;
+    margin-top: 350px;
+    height:110px;
+    width:150px;
+    z-index:4;
+  }
+  .img2{
+    position:absolute;
+    left: 90px;
+    margin-top: 230px;
+    height:110px;
+    width:170px;
+    z-index:4;
+  }
+  .mainContentDetails{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .nameAndRank{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin-top: 60px;
+    padding-bottom:20px;
+  }
+  .cookieText{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column; 
+    text-align: left;
+  }
+  @media (max-width: 1200px){
+    .soldierAndOtherPic{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+    .img1{
+      top: 5%;
+      left: 38%;
+      transform: translate(-50%, -50%);
+    }
+    .img2{
+      top: 5%;
+      left: 49%;
+      transform: translate(-50%, -50%);
+    }
+    .mainContentDetails{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media ((min-width: 1100px) and (max-width: 1200px)){
+    .img1{
+      top: 15vh;
+      left: 44%;
+      transform: translate(-50%, -50%);
+    }
+    .img2{
+      top: 15vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  @media (max-width: 1000px) {
+    .column2Content{
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nameAndRank{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .dominance{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .vehicleText{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media ((max-width: 920px) and (min-width: 795px)) {
+    .mainContentDetails{
+      margin-left: 60px;
+    }
+    .vehicleText{
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 500px) {
+    .column2Content{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+    .soldierPic{
+      width: 50vw;
+      height: auto;
+      margin-left: 90px;
+      margin-right: auto;
+    }
+    .img1{
+      margin-top: 75vw;
+      width: 30vw;
+      height: auto;
+    }
+    .img2{
+      margin-top: 50vw;
+      width: 30vw;
+      height: auto;
+    }
+    .vehicleText{
+      max-width:80vw;
+      margin-left: auto;
+      justify-content: center;
+      margin-right: auto;
+    }
+    .dominance{
+      max-width: 80vw;
+      justify-content: center;
+    }
+    .dominanceContent{
+      margin-bottom: 5px;
+    }
+    .nameAndRank{
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+      /* margin-right: auto; */
+      justify-content: center;
+    }
+    .cookieName{
+      justify-content: center;
+      max-width: 80vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cookieText{
+      text-align: center;
+    }
+    .dataDesc{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60vw;
+    }
+  }
+  @media (max-width: 350px) {
+    .nameAndRank{
+      margin-left: 60px;
+      margin-right: 5px;
+    }
+  }

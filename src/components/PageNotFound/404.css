@@ -1,0 +1,29 @@
+/* NotFound.css */
+body{
+    background: url("/src/asserts/images/menu__background.png") center/cover fixed no-repeat;
+    cursor: none;
+    
+  }
+.not-found-container {
+    text-align: center;
+    margin-top: 30vh;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white;
+  }
+  
+  .navigate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .navigate-button:hover {
+    background-color: #0056b3;
+  }
+  

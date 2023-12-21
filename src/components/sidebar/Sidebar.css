@@ -1,0 +1,133 @@
+.menuimg{
+  width: 25px;
+  opacity: 0.7;
+}
+.menuimg:hover, .menuimg:active{
+  opacity: 1;
+  backdrop-filter: contrast(0.05);
+}
+.side1desc{
+  position: absolute;
+  left:56px;
+  top: 135px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  width: 60px;
+  z-index: 1;
+  display: none;
+}
+.side2desc{
+  position: absolute;
+  left:56px;
+  top: 185px;
+  color: white;
+  background-color: black;
+  padding:4px;
+  width: 60px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side3desc{
+  position: absolute;
+  left:56px;
+  top: 235px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  width: 60px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side4desc{
+  position: absolute;
+  left:56px;
+  top: 285px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  width: 100px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side5desc{
+  position: absolute;
+  left:56px;
+  top: 335px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side6desc{
+  position: absolute;
+  left:56px;
+  top: 385px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side7desc{
+  position: absolute;
+  left:56px;
+  top: 435px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side8desc{
+  position: absolute;
+  left:56px;
+  bottom: 56px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.side9desc{
+  position: absolute;
+  left:56px;
+  bottom: 23px;
+  background-color: black;
+  color: white;
+  padding:4px;
+  font-size: 9px;
+  z-index: 1;
+  display: none;
+}
+.menuimg8{
+  color:rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 0px;
+}
+.menuimg8:hover{
+  color: white;
+}
+.menuitem8{
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+}
+.menuitem9{
+  position: absolute;
+  bottom: 5px;
+}
+@media (max-width: 500px) {
+  Sidebar{
+    width:30px;
+  }
+}

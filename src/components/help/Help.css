@@ -1,0 +1,103 @@
+.help{
+    background: url("../help/side-menu-BG.png") center/cover fixed no-repeat;
+    cursor: none;
+    height: 100vh;
+    position: absolute;
+    width: 99vw;
+    top:0px;
+    z-index: -2;
+  }
+  .dim-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 14, 30, 0.4); /* Adjust opacity here */
+    z-index: -1;
+  }
+.help-navbar-tab {
+    /* cursor: pointer; */
+    color: white;
+    transition: color 2s ease;
+    border-bottom: 2px solid white;
+    transition: border 2s ease;
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: none;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .help-navbar-tab:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+
+  .help-navbar-tabs {
+    display: flex;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .help-content{
+    color: rgba(248, 247, 247, 0.826);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 70px;
+  }
+.specific-help{
+    padding-bottom: 25px;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+.specific-help:hover{
+    border-left: 2px solid white;
+    padding-left: 18px;
+    color: white;
+}
+.help-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.help-writeup{
+    font-size: 12px;
+}
+.help-contact{
+    position: absolute;
+    bottom: 25px;
+    border: 1px solid rgba(248, 247, 247, 0.826);
+    font-weight: 500;
+    justify-content: center;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+.help-contact:hover{
+    background-color: white;
+    color: black;
+}
+  
+@media (max-width: 500px){
+    .help-content{
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-right: 50px;
+      }
+    .help-contact{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .help-heading{
+        font-size: 16px;
+    }
+    .help-writeup{
+        font-size: 10px;
+    }
+}
