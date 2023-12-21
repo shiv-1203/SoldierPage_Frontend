@@ -38,6 +38,8 @@ Install the following modules to ensure proper functionality:
 
 ```bash
 npm install @mantine/core @mui/icons-material react-dom react-icons react-pro-sidebar react-router-dom
+
+npm install gh-pages --save-dev
 ```
 
 These commands will download and install the necessary dependencies for your React application. Make sure to run them in the root directory of your **"soldierfrontend"** project.
