@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SoldierPage_Frontend/static/css/main.bb5dad3e.css",
+    "main.js": "/SoldierPage_Frontend/static/js/main.12a7cdba.js",
+    "static/js/787.7650776d.chunk.js": "/SoldierPage_Frontend/static/js/787.7650776d.chunk.js",
+    "static/media/side-menu-BG.png": "/SoldierPage_Frontend/static/media/side-menu-BG.e49704e9fc31b8163ac0.png",
+    "static/media/menu__background.png": "/SoldierPage_Frontend/static/media/menu__background.6da8bbba8b3c98fccaaa.png",
+    "static/media/soldier__pic.png": "/SoldierPage_Frontend/static/media/soldier__pic.52d822061a5e5f17b0f6.png",
+    "static/media/soldier__BFemblem.png": "/SoldierPage_Frontend/static/media/soldier__BFemblem.e93d582ffac135865183.png",
+    "static/media/BF4_Celebration_Dog_Tag.png": "/SoldierPage_Frontend/static/media/BF4_Celebration_Dog_Tag.682a74e534a8e6403c3f.png",
+    "static/media/play.jpg": "/SoldierPage_Frontend/static/media/play.ab4af211aa7a8d4dfd42.jpg",
+    "static/media/premium dog tag.png": "/SoldierPage_Frontend/static/media/premium dog tag.5cfa5b4bda73a891a77f.png",
+    "static/media/home__logo.png": "/SoldierPage_Frontend/static/media/home__logo.264003b5423667b0f027.png",
+    "static/media/logo.svg": "/SoldierPage_Frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SoldierPage_Frontend/index.html",
+    "main.bb5dad3e.css.map": "/SoldierPage_Frontend/static/css/main.bb5dad3e.css.map",
+    "main.12a7cdba.js.map": "/SoldierPage_Frontend/static/js/main.12a7cdba.js.map",
+    "787.7650776d.chunk.js.map": "/SoldierPage_Frontend/static/js/787.7650776d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb5dad3e.css",
+    "static/js/main.12a7cdba.js"
+  ]
+}
