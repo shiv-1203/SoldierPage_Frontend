@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Description of SoldierPage_Frontend Project
+Led development of Battlefield 4 Soldier page, integrating Figma design with Node.js and React.js. Crafted a seamless user experience and a clone for familiarity. Merged cutting-edge tech and design for a comprehensive web app. Delivered engaging and responsive profiles for Battlefield 4 enthusiasts. Check out the project here.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Prerequisites
 
-## Available Scripts
+Before you begin, ensure you have the following prerequisites:
 
-In the project directory, you can run:
+- **npm:** The Node.js package manager.
 
-### `npm start`
+To install or update npm to the latest version, run the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install npm@latest -g
+```
+# Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This repository comprises a web application with a React.js frontend and a Node.js backend. The final output window is visually represented in the provided images. The green-highlighted area in the images is dynamically served from the backend, accessible at [SoldierPage_Backend](https://soldierpage-backend.onrender.com/). The following features are implemented:
 
-### `npm test`
+- **BattleField 4-Soldier Page:** A dedicated page showcasing detailed information about BattleField 4 soldiers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Help Page:** An informational page providing assistance or guidance for users.
 
-### `npm run build`
+- **Not Found Page:** A page to handle routes that do not match any implemented pages, ensuring a seamless user experience even in case of unexpected routes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The backend interacts with the frontend through one or more API calls, facilitating the fetching of data from the server to the frontend components. This project is designed to offer a comprehensive and responsive user interface for exploring BattleField 4 soldier profiles.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Initial Setup
+To initialize a React app named "soldierfrontend" using Create React App, run the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx create-react-app soldierfrontend
+```
+ You can clone this repository for your own use [https://github.com/shiv-1203/SoldierPage_Frontend.git](https://github.com/shiv-1203/SoldierPage_Frontend.git)
 
-### `npm run eject`
+## Required Module Installation
+Install the following modules to ensure proper functionality:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install @mantine/core @mui/icons-material react-dom react-icons react-pro-sidebar react-router-dom
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+These commands will download and install the necessary dependencies for your React application. Make sure to run them in the root directory of your **"soldierfrontend"** project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Image Assets
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The images used in this project are sourced from the Figma UI and are already added to the **"assets"** folder. You can access them using the following link: [Figma UI](https://www.figma.com/community/file/992422778538944984).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
